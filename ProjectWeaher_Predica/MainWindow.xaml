@@ -1,0 +1,17 @@
+﻿<Window x:Class="ProjectWeather.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectWeather"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="490">
+    <Grid>
+        <Image Source="C:\Users\hp 840 g3\source\repos\ProjectWeather\ProjectWeather\bin\Release\temp.jpg" HorizontalAlignment="Left" Height="600" Margin="-7,-29,0,-0.333" VerticalAlignment="Top" Width="490"/>
+
+        <Button x:Name="Comparer" Content="Go to compare&#xA;" HorizontalAlignment="Left" Height="38" Margin="317,458,0,0" VerticalAlignment="Top" Width="138" Click="Button_Click" FontSize="20" FontFamily="Gabriola"/>
+        <Button x:Name="Refresher" Content="Refresh" HorizontalAlignment="Left" Height="37" Margin="317,416,0,0" VerticalAlignment="Top" Width="138" Click="Refresher_Click" FontFamily="Gabriola" FontSize="24"/>
+        <Label x:Name="WeatherShowLabel" Content="" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" Height="551" Width="180" FontSize="8"/>
+
+    </Grid>
+</Window>
